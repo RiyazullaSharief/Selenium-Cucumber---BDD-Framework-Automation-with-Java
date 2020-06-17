@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="51066" started-at="2020-06-12T22:06:48Z" finished-at="2020-06-12T22:07:39Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runners.Runner1@70be0a2b]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="51066" started-at="2020-06-12T22:06:48Z" finished-at="2020-06-12T22:07:39Z">
+      <class name="runners.Runner1">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runners.Runner1@70be0a2b]" name="setUpClass" is-config="true" duration-ms="351" started-at="2020-06-13T03:36:48Z" finished-at="2020-06-13T03:36:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runners.Runner1@70be0a2b]" name="feature" duration-ms="25615" started-at="2020-06-13T03:36:48Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-06-13T03:37:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[As a new user I would like to create the new account]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runners.Runner1@70be0a2b]" name="feature" duration-ms="24462" started-at="2020-06-13T03:37:14Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-06-13T03:37:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Flight Search on AirAsia]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runners.Runner1@70be0a2b]" name="tearDownClass" is-config="true" duration-ms="520" started-at="2020-06-13T03:37:38Z" finished-at="2020-06-13T03:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runners.Runner1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
